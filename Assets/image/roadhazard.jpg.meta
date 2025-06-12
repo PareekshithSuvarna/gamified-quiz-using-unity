@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8b52a3ae0d6227940954a42e8518825e
+guid: 67b57abbfb1b0aa41a37323415b021ff
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1683868666858774820
-    second: WhatsApp Image 2025-05-14 at 11.48.57_6a12d1e0_0
+      213: 6010210997940437206
+    second: roadhazard_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,13 +165,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WhatsApp Image 2025-05-14 at 11.48.57_6a12d1e0_0
+      name: roadhazard_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1280
-        height: 723
+        width: 318
+        height: 159
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,8 +180,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 421278881ad4e5710800000000000000
-      internalID: 1683868666858774820
+      spriteID: 6d0c2652f0f886350800000000000000
+      internalID: 6010210997940437206
       vertices: []
       indices: 
       edges: []
@@ -200,7 +200,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WhatsApp Image 2025-05-14 at 11.48.57_6a12d1e0_0: 1683868666858774820
+      roadhazard_0: 6010210997940437206
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

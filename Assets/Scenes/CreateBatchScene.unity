@@ -145,7 +145,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 49214127}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -153,12 +153,12 @@ RectTransform:
   - {fileID: 82239525}
   - {fileID: 823035719}
   - {fileID: 1957364277}
-  m_Father: {fileID: 760462562}
+  m_Father: {fileID: 186151293}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5.001, y: -118.4943}
-  m_SizeDelta: {x: 840.19, y: 88.7699}
+  m_AnchoredPosition: {x: -32.91089, y: -271.51703}
+  m_SizeDelta: {x: 760.71, y: 131.928}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &49214129
 MonoBehaviour:
@@ -211,13 +211,13 @@ MonoBehaviour:
   m_MultiSelect: 0
   m_Options:
     m_Options:
-    - m_Text: Option A
+    - m_Text: fire hazard
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Option B
+    - m_Text: industrial hazard
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Option C
+    - m_Text: road hazards
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_OnValueChanged:
@@ -332,8 +332,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.8880615, y: -1.0000076}
-  m_SizeDelta: {x: -46.2238, y: -12}
+  m_AnchoredPosition: {x: -23.980316, y: 2.5}
+  m_SizeDelta: {x: -106.0393, y: -5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &82239526
 MonoBehaviour:
@@ -355,7 +355,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Option A
+  m_text: fire hazard
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -555,6 +555,7 @@ RectTransform:
   - {fileID: 201944327}
   - {fileID: 1720177775}
   - {fileID: 760462562}
+  - {fileID: 49214128}
   - {fileID: 406090563}
   m_Father: {fileID: 1890343099}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -637,8 +638,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 82.690674, y: 205.46387}
-  m_SizeDelta: {x: 844.1907, y: 89.9336}
+  m_AnchoredPosition: {x: -38.811, y: 238.7097}
+  m_SizeDelta: {x: 770.7142, y: 153.2214}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &201944328
 MonoBehaviour:
@@ -731,7 +732,7 @@ MonoBehaviour:
   m_CaretWidth: 1
   m_ReadOnly: 0
   m_RichText: 1
-  m_GlobalFontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_GlobalFontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_OnFocusSelectAll: 1
   m_ResetOnDeActivation: 1
   m_KeepTextSelectionVisible: 0
@@ -815,8 +816,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 89.76465, y: -324.0755}
-  m_SizeDelta: {x: 278.4483, y: 86.9166}
+  m_AnchoredPosition: {x: -17.37, y: -507}
+  m_SizeDelta: {x: 338.69, y: 162.2888}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &406090564
 MonoBehaviour:
@@ -1501,8 +1502,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -26.987, y: -0.024799347}
-  m_SizeDelta: {x: -54.39, y: -0.048000336}
+  m_AnchoredPosition: {x: 39.4895, y: -14.0789}
+  m_SizeDelta: {x: -187.1895, y: 28.0562}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &673181357
 MonoBehaviour:
@@ -1635,13 +1636,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1490900704}
-  - {fileID: 49214128}
   m_Father: {fileID: 186151293}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 85.688354, y: -44}
-  m_SizeDelta: {x: 850.186, y: 95.9289}
+  m_AnchorMin: {x: 0.35000002, y: 0.4107778}
+  m_AnchorMax: {x: 0.63351566, y: 0.5}
+  m_AnchoredPosition: {x: -16.811005, y: -39.768066}
+  m_SizeDelta: {x: 48.70999, y: -15.376701}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &760462563
 MonoBehaviour:
@@ -1734,7 +1734,7 @@ MonoBehaviour:
   m_CaretWidth: 1
   m_ReadOnly: 0
   m_RichText: 1
-  m_GlobalFontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_GlobalFontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_OnFocusSelectAll: 1
   m_ResetOnDeActivation: 1
   m_KeepTextSelectionVisible: 0
@@ -1816,7 +1816,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.104034424, y: -0.024375916}
+  m_AnchoredPosition: {x: 0, y: -0}
   m_SizeDelta: {x: -0.2081, y: -0.048843}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &788068966
@@ -2088,10 +2088,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 49214128}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -14.999878, y: 0}
-  m_SizeDelta: {x: 20, y: 20}
+  m_AnchorMin: {x: 0.845, y: 0.21210054}
+  m_AnchorMax: {x: 0.9632251, y: 0.75747925}
+  m_AnchoredPosition: {x: 1.8536072, y: -1.8871002}
+  m_SizeDelta: {x: 7.7414017, y: -1.0361023}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &823035720
 MonoBehaviour:
@@ -2250,8 +2250,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.104034424, y: -0.024375916}
-  m_SizeDelta: {x: -0.2081, y: -0.048843}
+  m_AnchoredPosition: {x: 0.10406494, y: -0.024291992}
+  m_SizeDelta: {x: -0.20813, y: -0.0489}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1150372087
 MonoBehaviour:
@@ -2338,7 +2338,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 23.291687, y: 0, z: 77.49913, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2668,7 +2668,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.157}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.5000038}
+  m_AnchoredPosition: {x: 0, y: -0.5}
   m_SizeDelta: {x: -20, y: -13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1451478765
@@ -2795,7 +2795,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.157}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.5000038}
+  m_AnchoredPosition: {x: 0, y: -0.5}
   m_SizeDelta: {x: -20, y: -13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1490900705
@@ -2846,8 +2846,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 86.0919, y: 378.72083}
-  m_SizeDelta: {x: 396.6648, y: 134.8057}
+  m_AnchoredPosition: {x: 0.000013351, y: 476}
+  m_SizeDelta: {x: 373.43, y: 93.848}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1538564252
 MonoBehaviour:
@@ -2934,7 +2934,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0.00012207031, y: 26.589508, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3141,8 +3141,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 85.688354, y: 80}
-  m_SizeDelta: {x: 850.186, y: 95.9289}
+  m_AnchoredPosition: {x: -38.811085, y: 69.13904}
+  m_SizeDelta: {x: 770.71, y: 138.28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1720177776
 MonoBehaviour:
@@ -3235,7 +3235,7 @@ MonoBehaviour:
   m_CaretWidth: 1
   m_ReadOnly: 0
   m_RichText: 1
-  m_GlobalFontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_GlobalFontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_OnFocusSelectAll: 1
   m_ResetOnDeActivation: 1
   m_KeepTextSelectionVisible: 0

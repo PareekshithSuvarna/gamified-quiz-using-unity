@@ -4,6 +4,20 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Networking;
+using UnityEngine.SceneManagement;
+
+[System.Serializable]
+public class QuizType
+{
+    public string name;
+    public string scene_name;
+}
+
+[System.Serializable]
+public class QuizTypeList
+{
+    public QuizType[] quizTypes;
+}
 
 public class TakeQuizManager : MonoBehaviour
 {
@@ -13,82 +27,44 @@ public class TakeQuizManager : MonoBehaviour
     public TMP_Dropdown quizTypeDropdown;
     public Button startQuizButton;
 
-    private string batchID;
-    private string batchName;
+    private List<QuizType> quizTypes = new List<QuizType>();
 
     void Start()
     {
-        batchID = PlayerPrefs.GetString("batchId", "N/A");
-        batchName = PlayerPrefs.GetString("batchName", "N/A");
-
-        batchIDText.text = batchID;
-        batchNameText.text = batchName;
-
         StartCoroutine(LoadQuizTypes());
         startQuizButton.onClick.AddListener(OnStartQuizClicked);
     }
 
     IEnumerator LoadQuizTypes()
     {
-        string url = "http://localhost/picquizz/get_quiz_types.php?batch_id=" + batchID;
-        UnityWebRequest www = UnityWebRequest.Get(url);
+        UnityWebRequest www = UnityWebRequest.Get("http://localhost/picquizz/get_quiz_types.php");
         yield return www.SendWebRequest();
 
         if (www.result != UnityWebRequest.Result.Success)
         {
-            Debug.LogError("Error: " + www.error);
+            Debug.LogError("Failed to fetch quiz types: " + www.error);
             yield break;
         }
 
-        string json = www.downloadHandler.text;
+        string json = "{\"quizTypes\":" + www.downloadHandler.text + "}";
+        QuizTypeList quizTypeList = JsonUtility.FromJson<QuizTypeList>(json);
+        quizTypes = new List<QuizType>(quizTypeList.quizTypes);
 
-        if (json == "no_quiz")
-        {
-            quizTypeDropdown.gameObject.SetActive(false);
-            Debug.Log("No quiz types available for this batch.");
-            yield break;
-        }
-
-        string[] quizTypes = JsonHelper.FromJson<string>(FixJson(json));
         quizTypeDropdown.ClearOptions();
-        quizTypeDropdown.AddOptions(new List<string>(quizTypes));
+        List<string> names = new List<string>();
+        foreach (var qt in quizTypes)
+        {
+            names.Add(qt.name);
+        }
+        quizTypeDropdown.AddOptions(names);
     }
 
     void OnStartQuizClicked()
     {
-        string traineeName = traineeNameInput.text;
-        string selectedQuiz = quizTypeDropdown.options[quizTypeDropdown.value].text;
+        int selectedIndex = quizTypeDropdown.value;
+        string sceneToLoad = quizTypes[selectedIndex].scene_name;
 
-        if (string.IsNullOrEmpty(traineeName))
-        {
-            Debug.Log("Please enter your name.");
-            return;
-        }
-
-        PlayerPrefs.SetString("traineeName", traineeName);
-        PlayerPrefs.SetString("selectedQuiz", selectedQuiz);
-
-        // Load Quiz Scene
-        UnityEngine.SceneManagement.SceneManager.LoadScene("StartQuizScene");
-    }
-
-    string FixJson(string value)
-    {
-        return "{\"array\":" + value + "}";
-    }
-
-    [System.Serializable]
-    public class Wrapper<T>
-    {
-        public T[] array;
-    }
-
-    public static class JsonHelper
-    {
-        public static T[] FromJson<T>(string json)
-        {
-            Wrapper<T> wrapper = JsonUtility.FromJson<Wrapper<T>>(json);
-            return wrapper.array;
-        }
+        Debug.Log("Loading Scene: " + sceneToLoad);
+        SceneManager.LoadScene(sceneToLoad);
     }
 }
