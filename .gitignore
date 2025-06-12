@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Unity WebGL builds
 public/WebGLBuild/*
 !public/WebGLBuild/.gitkeep
@@ -42,3 +43,26 @@ coverage
 .env.development.local
 .env.test.local
 .env.production.local
+=======
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Rider project files
+.idea/
+*.sln
+*.csproj
+
+# User-specific
+*.user
+*.userprefs
+
+# OS generated
+.DS_Store
+Thumbs.db
+>>>>>>> master

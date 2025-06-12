@@ -1,0 +1,212 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\picquizz (4)\\picquizz\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\TakeQuizManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TakeQuizManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\StartQuizManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StartQuizManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\ResultSceneManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ResultSceneManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\TraineeHomeManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TraineeHomeManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\LoginManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LoginManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\picquizz\\Assets\\Scripts\\QuizManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\TraineeInfoManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TraineeInfoManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\LeaderboardManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LeaderboardManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\CreateBatchManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CreateBatchManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\AdminHomeManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AdminHomeManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\RegisterManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\RegisterManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\SceneNavigator.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SceneNavigator.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TakeQuizManager.cs",
+              "DocumentMoniker": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\TakeQuizManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TakeQuizManager.cs",
+              "ToolTip": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\TakeQuizManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TakeQuizManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T19:53:29.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StartQuizManager.cs",
+              "DocumentMoniker": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\StartQuizManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StartQuizManager.cs",
+              "ToolTip": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\StartQuizManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StartQuizManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:02:49.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResultSceneManager.cs",
+              "DocumentMoniker": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\ResultSceneManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ResultSceneManager.cs",
+              "ToolTip": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\ResultSceneManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ResultSceneManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T15:18:10.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TraineeHomeManager.cs",
+              "DocumentMoniker": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\TraineeHomeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TraineeHomeManager.cs",
+              "ToolTip": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\TraineeHomeManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TraineeHomeManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T16:33:29.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginManager.cs",
+              "DocumentMoniker": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\LoginManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LoginManager.cs",
+              "ToolTip": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\LoginManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LoginManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T16:20:25.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QuizManager.cs",
+              "DocumentMoniker": "D:\\picquizz\\Assets\\Scripts\\QuizManager.cs",
+              "RelativeDocumentMoniker": "..\\..\\picquizz\\Assets\\Scripts\\QuizManager.cs",
+              "ToolTip": "D:\\picquizz\\Assets\\Scripts\\QuizManager.cs",
+              "RelativeToolTip": "..\\..\\picquizz\\Assets\\Scripts\\QuizManager.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T05:11:26.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TraineeInfoManager.cs",
+              "DocumentMoniker": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\TraineeInfoManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TraineeInfoManager.cs",
+              "ToolTip": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\TraineeInfoManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TraineeInfoManager.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswBwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:21:14.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LeaderboardManager.cs",
+              "DocumentMoniker": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\LeaderboardManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LeaderboardManager.cs",
+              "ToolTip": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\LeaderboardManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LeaderboardManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:32:39.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateBatchManager.cs",
+              "DocumentMoniker": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\CreateBatchManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CreateBatchManager.cs",
+              "ToolTip": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\CreateBatchManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CreateBatchManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:21:06.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminHomeManager.cs",
+              "DocumentMoniker": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\AdminHomeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AdminHomeManager.cs",
+              "ToolTip": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\AdminHomeManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AdminHomeManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:04:24.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterManager.cs",
+              "DocumentMoniker": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\RegisterManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RegisterManager.cs",
+              "ToolTip": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\RegisterManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RegisterManager.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwCwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T17:07:17.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SceneNavigator.cs",
+              "DocumentMoniker": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\SceneNavigator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneNavigator.cs",
+              "ToolTip": "D:\\picquizz (4)\\picquizz\\Assets\\Scripts\\SceneNavigator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneNavigator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T17:17:33.74Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
